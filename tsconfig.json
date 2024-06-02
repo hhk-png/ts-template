@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "allowImportingTsExtensions": true,
+    "lib": ["ESNext", "DOM"],
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
     "moduleResolution": "Node",
-    "strict": true,
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "strict": true,
+    "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
     "skipLibCheck": true
   },
   "include": ["src"]

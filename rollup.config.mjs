@@ -48,7 +48,7 @@ export default [
         file: 'dist/index.browser.mjs',
         format: 'esm',
 
-      }
+      },
     ],
     plugins: [
       replace({}),
@@ -63,7 +63,7 @@ export default [
       {
         file: 'dist/index.d.ts',
         format: 'es',
-        globals
+        globals,
       },
     ],
     plugins: [dts()],
