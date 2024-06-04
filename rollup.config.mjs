@@ -57,6 +57,40 @@ export default [
       commonjs(),
     ],
   },
+  // {
+  //   input: 'src/index.ts',
+  //   external,
+  //   output: [
+  //     {
+  //       file: 'dist/index.iife.js',
+  //       format: 'iife',
+  //       extend: true,
+  //       name: 'shiki',
+  //       globals,
+  //     },
+  //     {
+  //       file: 'dist/index.iife.min.js',
+  //       format: 'iife',
+  //       extend: true,
+  //       name: 'shiki',
+  //       plugins: [terser()],
+  //       globals,
+  //     },
+  //     {
+  //       file: 'dist/index.browser.mjs',
+  //       format: 'esm',
+  //       globals,
+  //     },
+  //   ],
+  //   plugins: [
+  //     replace({
+  //       __BROWSER__: JSON.stringify(true),
+  //     }),
+  //     esbuild(),
+  //     nodeResolve(),
+  //     commonjs(),
+  //   ],
+  // },
   {
     input: 'src/index.ts',
     output: [
