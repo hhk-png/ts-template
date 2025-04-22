@@ -14,7 +14,7 @@
     "build": "rollup -c",
     "prepare": "simple-git-hooks",
     "tsc": "tsc --noEmit",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix --cache"
   },
   "dependencies": {
     "unbuild": "^3.5.0"
@@ -32,6 +32,6 @@
     "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
-    "*": "eslint . --fix"
+    "*": "eslint . --fix --cache"
   }
 }
