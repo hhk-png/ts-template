@@ -5,7 +5,7 @@
   "packageManager": "pnpm@10.9.0",
   "description": "",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [],
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "happy-dom": "^17.4.4",
     "lint-staged": "^15.2.5",
     "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.8.3",
     "vitest": "^3.1.2"
   },
   "simple-git-hooks": {
